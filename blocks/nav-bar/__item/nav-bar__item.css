@@ -9,5 +9,6 @@
 @media screen and (min-width: 768px){
   .nav-bar__item {
     margin:  0 18px 0 0;
+    display: inline-block;
   }
 }
