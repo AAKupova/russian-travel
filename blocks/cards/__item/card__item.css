@@ -1,16 +1,16 @@
-.card__item {
+.cards__item {
   margin-top: 50px;
   display: grid;
   grid-template-rows: repeat(1, auto);
   grid-template-columns: repeat(1, auto);
 }
 
-.card__item:first-child {
+.cards__item:first-child {
   margin-top: 0;
 }
 
 @media screen and (min-width: 768px) {
-  .card__item {
+  .cards__item {
     grid-template-rows: repeat(2, auto);
     grid-template-columns: repeat(2, auto);
     margin: 72px 0 0 0;
@@ -18,7 +18,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .card__item {
+  .cards__item {
     margin: 80px 0 0 0;
   }
 }
