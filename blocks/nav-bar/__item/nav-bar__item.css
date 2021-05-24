@@ -1,0 +1,13 @@
+.nav-bar__item {
+  margin:  0 0 32px;
+}
+
+.nav-bar__item:last-of-type {
+  margin:  0;
+}
+
+@media screen and (min-width: 768px){
+  .nav-bar__item {
+    margin:  0 18px 0 0;
+  }
+}

@@ -1,0 +1,12 @@
+.cover__title {
+    width: 7.5em;
+    margin: 0 auto 16px auto;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 768px){
+    .cover__title {
+        margin: 0 auto 32px auto;
+    }
+  }

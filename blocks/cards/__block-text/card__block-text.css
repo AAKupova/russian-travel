@@ -1,0 +1,22 @@
+.card__block-text {
+  margin: 32px 24px 0;
+  flex-basis: 50%;
+}
+
+@media screen and (min-width: 768px){
+  .card__block-text  {
+    margin: 0 0 0 28px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .card__block-text  {
+    margin: 0 0 0 32px;
+  }
+}
+
+@media screen and (min-width: 1280px){
+  .card__block-text  {
+    margin: 0 0 0 40px;
+  }
+}

@@ -1,0 +1,8 @@
+.toggle-language__item {
+  display: inline-block;
+  margin: 14px 18px 8px 0;
+}
+
+.toggle-language__item:last-of-type {
+  margin-right: 0;
+}
