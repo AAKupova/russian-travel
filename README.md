@@ -1,7 +1,7 @@
 Проект: Путешествие по России
 
 Этот сайт вам поможет составить план поездки по самым красивым и интересным местам России!
-Ссылка на страницу -> file:///Users/anastasiakupova/DevPage/russian-travel/index.html
+Ссылка на страницу ->  https://aakupova.github.io/russian-travel/index.html
 
 ___
 
