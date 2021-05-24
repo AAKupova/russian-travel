@@ -4,12 +4,12 @@
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .cover__quote {
     width: 360px;
     font-size: 18px;

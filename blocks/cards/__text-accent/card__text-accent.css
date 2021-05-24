@@ -3,11 +3,11 @@
   line-height: 1;
   font-weight: normal;
   letter-spacing: 0.2em;
-  color: #AAAAAA;
+  color: #aaaaaa;
   margin: 0 0 12px 0;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
   .card__text-accent {
     line-height: 20px;
   }

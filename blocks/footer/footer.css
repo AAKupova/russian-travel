@@ -2,7 +2,7 @@
   padding: 64px 16px 24px;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .footer {
     display: flex;
     justify-content: space-between;
@@ -11,7 +11,7 @@
   }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
   .footer {
     padding: 92px 48px 24px;
   }
