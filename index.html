@@ -11,30 +11,26 @@
     <div class="page">
       <header class="header">
         <img class="logo" src="./images/logo.svg" alt="Логотип" />
-        <nav class="toggle-language">
-          <ul class="toggle-language__list">
-            <li class="toggle-language__item">
-              <a
-                href="#"
-                class="toggle-language__link link link_view_underlined"
-                >Ru</a
-              >
-            </li>
-            <li class="toggle-language__item">
-              <a href="#" class="toggle-language__link link">En</a>
-            </li>
-          </ul>
-        </nav>
+        <ul class="toggle-language">
+          <li class="toggle-language__item">
+            <a href="#" class="toggle-language__link link link_view_underlined"
+              >Ru</a
+            >
+          </li>
+          <li class="toggle-language__item">
+            <a href="#" class="toggle-language__link link">En</a>
+          </li>
+        </ul>
       </header>
 
       <main class="main">
         <section class="lead">
-          <h1 class="lead__title title title_size_xl">
+          <h1 class="lead__title">
             Путешествия по России
           </h1>
-          <blockquote class="lead__subtitle">
+          <p class="lead__subtitle">
             Настоящая страна не в выпусках новостей, а здесь.
-          </blockquote>
+          </p>
           <picture>
             <source
               srcset="./images/lead-banner-320.png"
@@ -59,7 +55,7 @@
         </section>
 
         <section class="intro">
-          <h2 class="intro__title title title_size_s">
+          <h2 class="intro__title">
             Чего мы там не видели?
           </h2>
           <p class="intro__text">
@@ -190,7 +186,7 @@
         <section class="places">
           <ul class="cards">
             <li class="cards__item">
-              <h2 class="cards__title title title_size_m">
+              <h2 class="cards__title">
                 Куршская коса
               </h2>
               <div class="cards__block-url">
@@ -239,7 +235,7 @@
             </li>
 
             <li class="cards__item">
-              <h2 class="cards__title title title_size_m">
+              <h2 class="cards__title">
                 Кольский
               </h2>
               <div class="cards__block-url">
@@ -288,7 +284,7 @@
             </li>
 
             <li class="cards__item">
-              <h2 class="cards__title title title_size_m">
+              <h2 class="cards__title">
                 Алтай
               </h2>
               <div class="cards__block-url">
@@ -337,7 +333,7 @@
             </li>
 
             <li class="cards__item">
-              <h2 class="cards__title title title_size_m">
+              <h2 class="cards__title">
                 Зимний Байкал
               </h2>
               <div class="cards__block-url">
@@ -385,7 +381,7 @@
             </li>
 
             <li class="cards__item">
-              <h2 class="cards__title title title_size_m">
+              <h2 class="cards__title">
                 Карелия
               </h2>
               <div class="cards__block-url">
@@ -432,36 +428,15 @@
         <section class="cover">
           <a
             href="https://stampsy.com/na-elektrichkakh-do-baikala"
-            class="link"
+            class="cover__block-text link"
           >
-            <div class="cover__block-text">
-              <h2 class="cover__title title title_size_l">
-                До Байкала «на собаках»
-              </h2>
-              <blockquote class="cover__quote">
-                По мотивам учебной темы о Транссибе — путешествие от столицы до
-                Байкала на электричках.
-              </blockquote>
-            </div>
-            <picture>
-              <source
-                srcset="./images/cover-320.png"
-                media="(max-width: 320px)"
-              />
-              <source
-                srcset="./images/cover-768.png"
-                media="(max-width: 768px)"
-              />
-              <source
-                srcset="./images/cover-1024.jpg"
-                media="(max-width: 1024px)"
-              />
-              <img
-                class="image"
-                src="./images/overlay-banner.png"
-                alt="Железнодорожные пути и вагоны"
-              />
-            </picture>
+            <h2 class="cover__title">
+              До Байкала «на собаках»
+            </h2>
+            <p class="cover__quote">
+              По мотивам учебной темы о Транссибе — путешествие от столицы до
+              Байкала на электричках.
+            </p>
           </a>
         </section>
       </main>

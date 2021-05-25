@@ -1,9 +1,9 @@
 .cover__block-text {
-  margin: 0 auto;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translate(0, -50%);
-  right: 0;
   z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }

@@ -1,7 +1,9 @@
 .cover {
   position: relative;
   padding: 0;
-  background: #2a2c2f;
+  height: calc(100vw / 4 * 2.5);
+  background-image: url("../../images/overlay-banner.png");
+  background-size: contain;
 }
 
 .cover::before {
@@ -22,5 +24,6 @@
 @media screen and (min-width: 1280px) {
   .cover {
     margin: 0 48px;
+    height: calc(1184px / 4 * 2.5);
   }
 }

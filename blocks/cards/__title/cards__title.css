@@ -1,0 +1,32 @@
+.cards__title {
+  margin: 0 24px 32px;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: 900;
+  color: #fff;
+  font-size: 32px;
+  line-height: 1.09;
+}
+
+@media screen and (min-width: 768px) {
+  .cards__title {
+    margin: 0;
+    font-size: 42px;
+    min-width: 340px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cards__title {
+    margin: 0 0 48px;
+    font-size: 72px;
+    line-height: 1.05;
+    min-width: 440px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cards__title {
+    min-width: 460px;
+  }
+}
